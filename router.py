@@ -154,7 +154,7 @@ def classify_intent(query: str) -> dict:
     
     content = result["choices"][0]["message"]["content"]
     
-    # Extract JSON from possible markdown fences
+    # Extract JSON from possible markdown fences or trailing text
     content = content.strip()
     if content.startswith("```json"):
         content = content[7:]
@@ -164,7 +164,25 @@ def classify_intent(query: str) -> dict:
         content = content[:-3]
     content = content.strip()
     
-    classification = json.loads(content)
+    # Sometimes the model adds trailing text after the JSON; find the last valid JSON object
+    try:
+        classification = json.loads(content)
+    except json.JSONDecodeError:
+        # Try to extract the last JSON object in the text
+        brace_matches = list(re.finditer(r'\{', content))
+        for start in reversed(brace_matches):
+            for end in range(len(content), start.start(), -1):
+                try:
+                    candidate = content[start.start():end]
+                    classification = json.loads(candidate)
+                    break
+                except json.JSONDecodeError:
+                    continue
+            else:
+                continue
+            break
+        else:
+            raise
     
     # Enrich with execution plan
     intent = classification.get("intent", "chat")
