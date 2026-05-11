@@ -1,0 +1,56 @@
+{
+  "title": "Supervisor-Agent Phase 3: Live Subagent Delegation Report",
+  "date": "2026-05-11",
+  "bead_id": "autonomy-ah63",
+  "summary": {
+    "phase2_baseline": {
+      "description": "Dry-run simulation only",
+      "router_accuracy": "91% (20/22 test cases)",
+      "subagent_status": "simulated \u2014 no real execution",
+      "tests_passing": 2
+    },
+    "phase3_live": {
+      "description": "Actual subprocess delegation via Hermes CLI",
+      "research_delegation": {
+        "query": "Find 3 recent papers on LLM agents",
+        "intent": "research",
+        "subagent_status": "success",
+        "verdict": "PASS",
+        "urls_found": 6,
+        "elapsed_seconds": 51.98,
+        "sources_validated": [
+          "https://arxiv.org/abs/2605.07926 (HTTP 200)",
+          "https://arxiv.org/abs/2605.08060 (HTTP 200)",
+          "https://arxiv.org/abs/2605.07840 (HTTP 200)"
+        ]
+      },
+      "code_delegation": {
+        "query": "Write a Python factorial function with docstring and type hints",
+        "intent": "code",
+        "subagent_status": "success",
+        "verdict": "PASS",
+        "elapsed_seconds": 25.6,
+        "artifact_created": "/home/mist/autonomy/factorial.py",
+        "tests_reported": "passed (subagent self-reported)"
+      }
+    },
+    "comparison": {
+      "before": "Simulated subagents \u2014 no real work done",
+      "after": "Live Hermes CLI subagents \u2014 real research and code tasks executed",
+      "improvement": "From zero real delegation to validated live delegation across 2 intent categories"
+    }
+  },
+  "acceptance_criteria": {
+    "delegates_to_2_intents": "PASS \u2014 research and code both delegated live",
+    "real_results_not_simulated": "PASS \u2014 subagent output contains actual URLs and file paths",
+    "research_validation": "PASS \u2014 6 URLs found, 3 arXiv papers validated with HTTP 200",
+    "code_validation": "PASS \u2014 subagent reports tests pass, file created",
+    "json_report": "PASS \u2014 this report + per-run JSONs in results/",
+    "github_push": "PENDING \u2014 commit and push after final review"
+  },
+  "files": [
+    "supervisor_phase3_fixed.py \u2014 fixed live delegation script",
+    "results/phase3_research_20260511_232047.json \u2014 research run",
+    "results/phase3_code_20260511_232121.json \u2014 code run"
+  ]
+}

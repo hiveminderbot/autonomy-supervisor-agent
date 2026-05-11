@@ -3,10 +3,10 @@
     "total_cases": 22,
     "correct": 20,
     "accuracy": 0.909,
-    "avg_latency_ms": 2036.6,
-    "avg_tokens": 303.7,
-    "estimated_cost_usd": 0.00167,
-    "timestamp": "2026-05-11T16:26:17Z"
+    "avg_latency_ms": 2066.5,
+    "avg_tokens": 303.0,
+    "estimated_cost_usd": 0.001667,
+    "timestamp": "2026-05-11T22:53:53Z"
   },
   "results": [
     {
@@ -15,7 +15,7 @@
       "predicted": "research",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2337.7,
+      "latency_ms": 1983.7,
       "tokens": 313
     },
     {
@@ -24,7 +24,7 @@
       "predicted": "code",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 1854.6,
+      "latency_ms": 2082.0,
       "tokens": 301
     },
     {
@@ -33,7 +33,7 @@
       "predicted": "ops",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2062.9,
+      "latency_ms": 1840.6,
       "tokens": 316
     },
     {
@@ -42,7 +42,7 @@
       "predicted": "creative",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2022.0,
+      "latency_ms": 2134.2,
       "tokens": 294
     },
     {
@@ -51,7 +51,7 @@
       "predicted": "analysis",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2062.5,
+      "latency_ms": 1702.0,
       "tokens": 308
     },
     {
@@ -60,7 +60,7 @@
       "predicted": "chat",
       "correct": true,
       "confidence": 0.9,
-      "latency_ms": 1851.5,
+      "latency_ms": 1391.1,
       "tokens": 286
     },
     {
@@ -69,7 +69,7 @@
       "predicted": "ops",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2089.0,
+      "latency_ms": 2287.5,
       "tokens": 326
     },
     {
@@ -78,7 +78,7 @@
       "predicted": "code",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2269.6,
+      "latency_ms": 2022.6,
       "tokens": 315
     },
     {
@@ -87,7 +87,7 @@
       "predicted": "analysis",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2356.7,
+      "latency_ms": 1963.5,
       "tokens": 311
     },
     {
@@ -96,7 +96,7 @@
       "predicted": "code",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2137.2,
+      "latency_ms": 2615.9,
       "tokens": 343
     },
     {
@@ -105,7 +105,7 @@
       "predicted": "ops",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 1914.4,
+      "latency_ms": 2026.2,
       "tokens": 315
     },
     {
@@ -114,7 +114,7 @@
       "predicted": "research",
       "correct": true,
       "confidence": 0.95,
-      "latency_ms": 2262.6,
+      "latency_ms": 2184.8,
       "tokens": 315
     },
     {
@@ -123,7 +123,7 @@
       "predicted": "research",
       "correct": true,
       "confidence": 0.9,
-      "latency_ms": 2191.8,
+      "latency_ms": 2489.5,
       "tokens": 315
     },
     {
@@ -132,7 +132,7 @@
       "predicted": "creative",
       "correct": false,
       "confidence": 0.9,
-      "latency_ms": 2022.6,
+      "latency_ms": 1923.7,
       "tokens": 307
     },
     {
@@ -141,7 +141,7 @@
       "predicted": "creative",
       "correct": true,
       "confidence": 0.9,
-      "latency_ms": 1545.1,
+      "latency_ms": 1539.4,
       "tokens": 286
     },
     {
@@ -150,7 +150,7 @@
       "predicted": "chat",
       "correct": true,
       "confidence": 0.5,
-      "latency_ms": 1713.3,
+      "latency_ms": 1476.5,
       "tokens": 260
     },
     {
@@ -158,9 +158,9 @@
       "expected": "chat",
       "predicted": "chat",
       "correct": true,
-      "confidence": 0.5,
-      "latency_ms": 2139.0,
-      "tokens": 294
+      "confidence": 0.9,
+      "latency_ms": 1579.0,
+      "tokens": 279
     },
     {
       "query": "help",
@@ -168,7 +168,7 @@
       "predicted": "chat",
       "correct": true,
       "confidence": 0.8,
-      "latency_ms": 2894.4,
+      "latency_ms": 1779.8,
       "tokens": 287
     },
     {
@@ -177,7 +177,7 @@
       "predicted": "code",
       "correct": true,
       "confidence": 0.9,
-      "latency_ms": 1851.1,
+      "latency_ms": 1937.6,
       "tokens": 309
     },
     {
@@ -186,7 +186,7 @@
       "predicted": "ops",
       "correct": true,
       "confidence": 0.9,
-      "latency_ms": 1460.1,
+      "latency_ms": 1936.9,
       "tokens": 283
     },
     {
@@ -195,7 +195,7 @@
       "predicted": "research",
       "correct": false,
       "confidence": 0.9,
-      "latency_ms": 2006.5,
+      "latency_ms": 2018.7,
       "tokens": 304
     },
     {
@@ -204,7 +204,7 @@
       "predicted": "research",
       "correct": true,
       "confidence": 0.9,
-      "latency_ms": 1760.9,
+      "latency_ms": 4547.0,
       "tokens": 293
     }
   ]
