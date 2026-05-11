@@ -143,7 +143,7 @@ def classify_intent(query: str) -> dict:
         headers={
             "Authorization": f"Bearer {key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://hermes-agent.local",
+            "HTTP-Referer": "https://trismegistus.local",
             "X-Title": "Trismegistus Intent Router",
         },
         method="POST",
