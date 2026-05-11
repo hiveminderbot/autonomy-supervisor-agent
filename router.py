@@ -9,6 +9,7 @@ Uses OpenRouter + Claude 3.5 Haiku for cheap, fast classification.
 
 import json
 import os
+import re
 import sys
 import urllib.request
 
@@ -182,7 +183,8 @@ def classify_intent(query: str) -> dict:
                 continue
             break
         else:
-            raise
+            # Fallback: empty or unparseable input defaults to chat
+            classification = {"intent": "chat", "confidence": 0.5, "reasoning": "Empty or unparseable input"}
     
     # Enrich with execution plan
     intent = classification.get("intent", "chat")

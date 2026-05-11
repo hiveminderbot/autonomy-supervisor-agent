@@ -1,0 +1,211 @@
+{
+  "summary": {
+    "total_cases": 22,
+    "correct": 20,
+    "accuracy": 0.909,
+    "avg_latency_ms": 2036.6,
+    "avg_tokens": 303.7,
+    "estimated_cost_usd": 0.00167,
+    "timestamp": "2026-05-11T16:26:17Z"
+  },
+  "results": [
+    {
+      "query": "Find recent papers on LLM agents",
+      "expected": "research",
+      "predicted": "research",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2337.7,
+      "tokens": 313
+    },
+    {
+      "query": "Fix the bug in deduplicator.py",
+      "expected": "code",
+      "predicted": "code",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 1854.6,
+      "tokens": 301
+    },
+    {
+      "query": "Deploy the new API to production",
+      "expected": "ops",
+      "predicted": "ops",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2062.9,
+      "tokens": 316
+    },
+    {
+      "query": "Generate an image of a cyberpunk city",
+      "expected": "creative",
+      "predicted": "creative",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2022.0,
+      "tokens": 294
+    },
+    {
+      "query": "Analyze sales data for Q1 trends",
+      "expected": "analysis",
+      "predicted": "analysis",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2062.5,
+      "tokens": 308
+    },
+    {
+      "query": "What should I have for dinner?",
+      "expected": "chat",
+      "predicted": "chat",
+      "correct": true,
+      "confidence": 0.9,
+      "latency_ms": 1851.5,
+      "tokens": 286
+    },
+    {
+      "query": "Set up a cron job to backup the database",
+      "expected": "ops",
+      "predicted": "ops",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2089.0,
+      "tokens": 326
+    },
+    {
+      "query": "Refactor the authentication middleware to use JWT",
+      "expected": "code",
+      "predicted": "code",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2269.6,
+      "tokens": 315
+    },
+    {
+      "query": "Create a bar chart of monthly revenue",
+      "expected": "analysis",
+      "predicted": "analysis",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2356.7,
+      "tokens": 311
+    },
+    {
+      "query": "Write a Python script to scrape Hacker News",
+      "expected": "code",
+      "predicted": "code",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2137.2,
+      "tokens": 343
+    },
+    {
+      "query": "Monitor disk usage and alert if above 90%",
+      "expected": "ops",
+      "predicted": "ops",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 1914.4,
+      "tokens": 315
+    },
+    {
+      "query": "Summarize the latest Transformer architecture paper",
+      "expected": "research",
+      "predicted": "research",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2262.6,
+      "tokens": 315
+    },
+    {
+      "query": "Find the cheapest flights from NYC to Tokyo next month",
+      "expected": "research",
+      "predicted": "research",
+      "correct": true,
+      "confidence": 0.9,
+      "latency_ms": 2191.8,
+      "tokens": 315
+    },
+    {
+      "query": "Build a landing page for my SaaS product",
+      "expected": "code",
+      "predicted": "creative",
+      "correct": false,
+      "confidence": 0.9,
+      "latency_ms": 2022.6,
+      "tokens": 307
+    },
+    {
+      "query": "Generate a podcast intro jingle",
+      "expected": "creative",
+      "predicted": "creative",
+      "correct": true,
+      "confidence": 0.9,
+      "latency_ms": 1545.1,
+      "tokens": 286
+    },
+    {
+      "query": "",
+      "expected": "chat",
+      "predicted": "chat",
+      "correct": true,
+      "confidence": 0.5,
+      "latency_ms": 1713.3,
+      "tokens": 260
+    },
+    {
+      "query": "hi",
+      "expected": "chat",
+      "predicted": "chat",
+      "correct": true,
+      "confidence": 0.5,
+      "latency_ms": 2139.0,
+      "tokens": 294
+    },
+    {
+      "query": "help",
+      "expected": "chat",
+      "predicted": "chat",
+      "correct": true,
+      "confidence": 0.8,
+      "latency_ms": 2894.4,
+      "tokens": 287
+    },
+    {
+      "query": "Run the tests and fix any failures",
+      "expected": "code",
+      "predicted": "code",
+      "correct": true,
+      "confidence": 0.9,
+      "latency_ms": 1851.1,
+      "tokens": 309
+    },
+    {
+      "query": "Check if the server is up",
+      "expected": "ops",
+      "predicted": "ops",
+      "correct": true,
+      "confidence": 0.9,
+      "latency_ms": 1460.1,
+      "tokens": 283
+    },
+    {
+      "query": "Compare Python vs Rust performance",
+      "expected": "analysis",
+      "predicted": "research",
+      "correct": false,
+      "confidence": 0.9,
+      "latency_ms": 2006.5,
+      "tokens": 304
+    },
+    {
+      "query": "Find documentation for the Kubernetes API",
+      "expected": "research",
+      "predicted": "research",
+      "correct": true,
+      "confidence": 0.9,
+      "latency_ms": 1760.9,
+      "tokens": 293
+    }
+  ]
+}
