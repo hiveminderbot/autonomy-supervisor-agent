@@ -1,15 +1,12 @@
 {
   "summary": {
     "total_cases": 106,
-    "correct": 92,
-    "accuracy": 0.868,
-    "avg_latency_ms": 2036.7,
-    "avg_tokens": 306.8,
-    "estimated_cost_usd": 0.008131,
-    "timestamp": "2026-05-12T10:39:16Z",
-    "confidence_threshold": 0.75,
-    "fallbacks_to_chat": 3,
-    "fallback_rate": 0.028
+    "correct": 91,
+    "accuracy": 0.858,
+    "avg_latency_ms": 2108.9,
+    "avg_tokens": 307.2,
+    "estimated_cost_usd": 0.008141,
+    "timestamp": "2026-05-12T10:35:40Z"
   },
   "results": [
     {
@@ -20,7 +17,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2062.6,
+      "latency_ms": 2756.3,
       "tokens": 313
     },
     {
@@ -31,7 +28,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2173.4,
+      "latency_ms": 1991.6,
       "tokens": 315
     },
     {
@@ -42,7 +39,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1894.2,
+      "latency_ms": 2660.6,
       "tokens": 315
     },
     {
@@ -53,7 +50,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1951.7,
+      "latency_ms": 2110.6,
       "tokens": 293
     },
     {
@@ -64,7 +61,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2060.5,
+      "latency_ms": 2009.1,
       "tokens": 291
     },
     {
@@ -75,7 +72,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2328.6,
+      "latency_ms": 2421.6,
       "tokens": 318
     },
     {
@@ -86,7 +83,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1590.8,
+      "latency_ms": 1625.3,
       "tokens": 295
     },
     {
@@ -97,7 +94,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1851.4,
+      "latency_ms": 1645.9,
       "tokens": 291
     },
     {
@@ -108,7 +105,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1698.9,
+      "latency_ms": 1684.9,
       "tokens": 298
     },
     {
@@ -119,7 +116,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1914.5,
+      "latency_ms": 2150.0,
       "tokens": 314
     },
     {
@@ -130,7 +127,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1701.9,
+      "latency_ms": 2279.1,
       "tokens": 295
     },
     {
@@ -141,7 +138,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1530.3,
+      "latency_ms": 1768.2,
       "tokens": 290
     },
     {
@@ -152,7 +149,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1634.1,
+      "latency_ms": 2211.2,
       "tokens": 286
     },
     {
@@ -163,7 +160,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2065.0,
+      "latency_ms": 2048.6,
       "tokens": 303
     },
     {
@@ -174,7 +171,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2276.4,
+      "latency_ms": 2112.8,
       "tokens": 333
     },
     {
@@ -185,7 +182,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1840.0,
+      "latency_ms": 1654.1,
       "tokens": 294
     },
     {
@@ -196,7 +193,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1811.3,
+      "latency_ms": 1755.5,
       "tokens": 291
     },
     {
@@ -207,7 +204,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1702.8,
+      "latency_ms": 1920.8,
       "tokens": 310
     },
     {
@@ -218,7 +215,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 4141.8,
+      "latency_ms": 1842.1,
       "tokens": 301
     },
     {
@@ -229,7 +226,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2048.7,
+      "latency_ms": 1968.3,
       "tokens": 315
     },
     {
@@ -240,7 +237,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2590.7,
+      "latency_ms": 2376.9,
       "tokens": 343
     },
     {
@@ -251,7 +248,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2009.9,
+      "latency_ms": 2160.8,
       "tokens": 309
     },
     {
@@ -262,7 +259,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 1610.3,
+      "latency_ms": 1715.6,
       "tokens": 307
     },
     {
@@ -273,7 +270,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1937.1,
+      "latency_ms": 3160.9,
       "tokens": 313
     },
     {
@@ -284,7 +281,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2759.0,
+      "latency_ms": 2506.0,
       "tokens": 328
     },
     {
@@ -295,7 +292,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2696.5,
+      "latency_ms": 2444.6,
       "tokens": 321
     },
     {
@@ -306,7 +303,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2069.4,
+      "latency_ms": 2317.1,
       "tokens": 313
     },
     {
@@ -317,19 +314,19 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2415.7,
+      "latency_ms": 2140.9,
       "tokens": 328
     },
     {
       "query": "Create a Dockerfile for the Flask app",
       "expected": "code",
-      "predicted_raw": "code",
-      "predicted": "code",
-      "confidence": 0.95,
+      "predicted_raw": "chat",
+      "predicted": "chat",
+      "confidence": 0.5,
       "threshold_applied": false,
-      "correct": true,
-      "latency_ms": 2063.8,
-      "tokens": 321
+      "correct": false,
+      "latency_ms": 2205.6,
+      "tokens": 291
     },
     {
       "query": "Fix the SQL injection vulnerability in search.py",
@@ -339,7 +336,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1870.3,
+      "latency_ms": 1806.4,
       "tokens": 316
     },
     {
@@ -350,7 +347,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2033.9,
+      "latency_ms": 2300.9,
       "tokens": 314
     },
     {
@@ -361,7 +358,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2139.9,
+      "latency_ms": 1967.1,
       "tokens": 314
     },
     {
@@ -372,7 +369,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2192.2,
+      "latency_ms": 2408.9,
       "tokens": 317
     },
     {
@@ -383,7 +380,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2245.4,
+      "latency_ms": 2320.4,
       "tokens": 322
     },
     {
@@ -394,7 +391,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2627.4,
+      "latency_ms": 2463.2,
       "tokens": 331
     },
     {
@@ -405,7 +402,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2363.1,
+      "latency_ms": 2248.6,
       "tokens": 316
     },
     {
@@ -416,7 +413,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1906.2,
+      "latency_ms": 2317.8,
       "tokens": 316
     },
     {
@@ -427,7 +424,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2155.7,
+      "latency_ms": 2232.8,
       "tokens": 326
     },
     {
@@ -438,7 +435,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1879.1,
+      "latency_ms": 2007.4,
       "tokens": 315
     },
     {
@@ -449,7 +446,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1375.8,
+      "latency_ms": 1564.1,
       "tokens": 283
     },
     {
@@ -460,7 +457,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1462.9,
+      "latency_ms": 1416.1,
       "tokens": 290
     },
     {
@@ -471,7 +468,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1867.4,
+      "latency_ms": 1853.0,
       "tokens": 313
     },
     {
@@ -482,7 +479,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2016.4,
+      "latency_ms": 1951.5,
       "tokens": 308
     },
     {
@@ -493,7 +490,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1677.2,
+      "latency_ms": 1867.8,
       "tokens": 292
     },
     {
@@ -504,19 +501,19 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2572.0,
+      "latency_ms": 2104.4,
       "tokens": 326
     },
     {
       "query": "Check memory usage on the production server",
       "expected": "ops",
-      "predicted_raw": "ops",
-      "predicted": "ops",
-      "confidence": 0.95,
+      "predicted_raw": "chat",
+      "predicted": "chat",
+      "confidence": 0.5,
       "threshold_applied": false,
-      "correct": true,
-      "latency_ms": 1625.3,
-      "tokens": 295
+      "correct": false,
+      "latency_ms": 4651.9,
+      "tokens": 395
     },
     {
       "query": "Create a systemd service for the worker queue",
@@ -526,7 +523,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2573.1,
+      "latency_ms": 2460.4,
       "tokens": 333
     },
     {
@@ -537,7 +534,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1910.9,
+      "latency_ms": 1956.7,
       "tokens": 319
     },
     {
@@ -548,7 +545,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2473.2,
+      "latency_ms": 2219.7,
       "tokens": 319
     },
     {
@@ -559,7 +556,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2120.0,
+      "latency_ms": 2418.1,
       "tokens": 323
     },
     {
@@ -570,7 +567,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2673.3,
+      "latency_ms": 1803.0,
       "tokens": 315
     },
     {
@@ -581,7 +578,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1938.0,
+      "latency_ms": 2404.0,
       "tokens": 322
     },
     {
@@ -592,7 +589,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1866.0,
+      "latency_ms": 1942.3,
       "tokens": 294
     },
     {
@@ -603,7 +600,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1498.0,
+      "latency_ms": 1906.7,
       "tokens": 286
     },
     {
@@ -614,7 +611,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2218.6,
+      "latency_ms": 2415.4,
       "tokens": 316
     },
     {
@@ -625,19 +622,19 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1729.3,
+      "latency_ms": 1699.1,
       "tokens": 289
     },
     {
       "query": "Generate a synthwave track for my video",
       "expected": "creative",
-      "predicted_raw": "chat",
-      "predicted": "chat",
-      "confidence": 0.5,
-      "threshold_applied": true,
-      "correct": false,
-      "latency_ms": 2553.4,
-      "tokens": 318
+      "predicted_raw": "creative",
+      "predicted": "creative",
+      "confidence": 0.95,
+      "threshold_applied": false,
+      "correct": true,
+      "latency_ms": 1524.2,
+      "tokens": 289
     },
     {
       "query": "Design a business card template in SVG",
@@ -647,7 +644,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2092.5,
+      "latency_ms": 2127.4,
       "tokens": 295
     },
     {
@@ -658,7 +655,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1678.0,
+      "latency_ms": 1808.6,
       "tokens": 294
     },
     {
@@ -669,7 +666,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2453.9,
+      "latency_ms": 2105.9,
       "tokens": 331
     },
     {
@@ -680,7 +677,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2166.6,
+      "latency_ms": 1937.0,
       "tokens": 310
     },
     {
@@ -691,7 +688,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2374.8,
+      "latency_ms": 2112.5,
       "tokens": 318
     },
     {
@@ -702,7 +699,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1570.5,
+      "latency_ms": 1847.5,
       "tokens": 289
     },
     {
@@ -713,7 +710,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2055.4,
+      "latency_ms": 2264.2,
       "tokens": 311
     },
     {
@@ -724,7 +721,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2141.7,
+      "latency_ms": 2552.8,
       "tokens": 295
     },
     {
@@ -735,7 +732,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2016.2,
+      "latency_ms": 2270.3,
       "tokens": 303
     },
     {
@@ -746,7 +743,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1819.6,
+      "latency_ms": 2646.5,
       "tokens": 308
     },
     {
@@ -757,7 +754,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2037.6,
+      "latency_ms": 2118.4,
       "tokens": 311
     },
     {
@@ -768,7 +765,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 1986.9,
+      "latency_ms": 2604.6,
       "tokens": 304
     },
     {
@@ -779,7 +776,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2226.5,
+      "latency_ms": 2254.0,
       "tokens": 319
     },
     {
@@ -790,7 +787,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2283.0,
+      "latency_ms": 2164.1,
       "tokens": 311
     },
     {
@@ -801,7 +798,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2066.7,
+      "latency_ms": 1763.1,
       "tokens": 311
     },
     {
@@ -812,7 +809,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2231.5,
+      "latency_ms": 1937.8,
       "tokens": 325
     },
     {
@@ -823,7 +820,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1941.7,
+      "latency_ms": 1768.3,
       "tokens": 308
     },
     {
@@ -834,7 +831,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1859.4,
+      "latency_ms": 2269.7,
       "tokens": 307
     },
     {
@@ -845,7 +842,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2284.9,
+      "latency_ms": 2531.1,
       "tokens": 319
     },
     {
@@ -856,7 +853,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1793.9,
+      "latency_ms": 2085.5,
       "tokens": 314
     },
     {
@@ -867,7 +864,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2204.7,
+      "latency_ms": 2061.9,
       "tokens": 318
     },
     {
@@ -878,7 +875,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2038.4,
+      "latency_ms": 2323.2,
       "tokens": 320
     },
     {
@@ -889,7 +886,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2103.9,
+      "latency_ms": 2052.9,
       "tokens": 316
     },
     {
@@ -900,7 +897,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1622.8,
+      "latency_ms": 1866.7,
       "tokens": 286
     },
     {
@@ -909,9 +906,9 @@
       "predicted_raw": "chat",
       "predicted": "chat",
       "confidence": 0.5,
-      "threshold_applied": true,
+      "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1328.1,
+      "latency_ms": 1777.9,
       "tokens": 260
     },
     {
@@ -922,7 +919,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1574.2,
+      "latency_ms": 2237.0,
       "tokens": 279
     },
     {
@@ -933,7 +930,7 @@
       "confidence": 0.8,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1802.3,
+      "latency_ms": 1898.3,
       "tokens": 287
     },
     {
@@ -944,7 +941,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1629.1,
+      "latency_ms": 1634.4,
       "tokens": 289
     },
     {
@@ -955,7 +952,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1958.0,
+      "latency_ms": 1873.3,
       "tokens": 283
     },
     {
@@ -966,7 +963,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1870.3,
+      "latency_ms": 1713.5,
       "tokens": 297
     },
     {
@@ -977,7 +974,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2125.5,
+      "latency_ms": 1753.8,
       "tokens": 290
     },
     {
@@ -988,7 +985,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1735.3,
+      "latency_ms": 1742.1,
       "tokens": 287
     },
     {
@@ -999,7 +996,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1661.6,
+      "latency_ms": 1829.6,
       "tokens": 284
     },
     {
@@ -1010,7 +1007,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2487.3,
+      "latency_ms": 2297.5,
       "tokens": 289
     },
     {
@@ -1021,7 +1018,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1738.1,
+      "latency_ms": 2029.0,
       "tokens": 289
     },
     {
@@ -1032,7 +1029,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1803.5,
+      "latency_ms": 2169.5,
       "tokens": 296
     },
     {
@@ -1043,7 +1040,7 @@
       "confidence": 0.8,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 1794.0,
+      "latency_ms": 2180.0,
       "tokens": 293
     },
     {
@@ -1054,7 +1051,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 1972.8,
+      "latency_ms": 2014.0,
       "tokens": 320
     },
     {
@@ -1065,7 +1062,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2169.3,
+      "latency_ms": 2215.8,
       "tokens": 318
     },
     {
@@ -1076,7 +1073,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2218.1,
+      "latency_ms": 2125.2,
       "tokens": 317
     },
     {
@@ -1087,7 +1084,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2352.9,
+      "latency_ms": 2307.9,
       "tokens": 322
     },
     {
@@ -1098,7 +1095,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2397.9,
+      "latency_ms": 2773.7,
       "tokens": 315
     },
     {
@@ -1109,7 +1106,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2550.4,
+      "latency_ms": 2512.9,
       "tokens": 321
     },
     {
@@ -1120,7 +1117,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2112.8,
+      "latency_ms": 1853.2,
       "tokens": 309
     },
     {
@@ -1131,7 +1128,7 @@
       "confidence": 0.95,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1860.1,
+      "latency_ms": 1914.4,
       "tokens": 309
     },
     {
@@ -1142,7 +1139,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": false,
-      "latency_ms": 2099.1,
+      "latency_ms": 2104.4,
       "tokens": 311
     },
     {
@@ -1153,7 +1150,7 @@
       "confidence": 0.9,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1642.4,
+      "latency_ms": 1826.7,
       "tokens": 288
     },
     {
@@ -1164,7 +1161,7 @@
       "confidence": 1.0,
       "threshold_applied": false,
       "correct": true,
-      "latency_ms": 1883.1,
+      "latency_ms": 1676.3,
       "tokens": 281
     },
     {
@@ -1173,9 +1170,9 @@
       "predicted_raw": "chat",
       "predicted": "chat",
       "confidence": 0.5,
-      "threshold_applied": true,
+      "threshold_applied": false,
       "correct": true,
-      "latency_ms": 2076.2,
+      "latency_ms": 1728.0,
       "tokens": 296
     }
   ]
