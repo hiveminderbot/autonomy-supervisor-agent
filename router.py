@@ -187,7 +187,7 @@ def classify_intent(query: str) -> dict:
             classification = {"intent": "chat", "confidence": 0.5, "reasoning": "Empty or unparseable input"}
     
     # Enrich with execution plan
-    intent = classification.get("intent", "chat")
+    intent = classification.get("intent", "chat").lower()
     plan = INTENT_CATEGORIES.get(intent, INTENT_CATEGORIES["chat"])
     
     return {
